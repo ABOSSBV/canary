@@ -4,7 +4,7 @@ defmodule Canary.Mixfile do
   def project do
     [app: :canary,
      version: "0.14.1",
-     elixir: "~> 1.2.0",
+     elixir: "~> 2.0",
      package: package,
      description: """
      An authorization library to restrict what resources the current user is
@@ -29,7 +29,7 @@ defmodule Canary.Mixfile do
 
   defp deps do
     [
-     {:ecto, "~> 1.1"},
+     {:ecto, "~> 2.0"},
      {:canada, "~> 1.0.0"},
      {:plug, "~> 1.0"},
      {:ex_doc, "~> 0.7", only: :dev},
